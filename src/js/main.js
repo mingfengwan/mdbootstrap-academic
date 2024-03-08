@@ -7,4 +7,6 @@ window.mdb = mdb;
 import { Collapse, Tooltip, Ripple, Carousel, initMDB } from "mdb-ui-kit";
 initMDB({ Collapse, Tooltip, Ripple, Carousel });
 
-import '@fortawesome/fontawesome-pro/js/all.min.js';
+import '@fortawesome/fontawesome-pro/js/fontawesome.min.js';
+import '@fortawesome/fontawesome-pro/js/duotone.min.js';
+import '@fortawesome/fontawesome-pro/js/brands.min.js';
