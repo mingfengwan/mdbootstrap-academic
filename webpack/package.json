@@ -1,5 +1,5 @@
 {
-  "name": "mdb-starter-webpack",
+  "name": "mdbootstrap-academic",
   "version": "1.0.0",
   "scripts": {
     "start": "webpack serve --mode development",
@@ -13,7 +13,7 @@
     "url": "https://github.com/mingfengwan/mdbootstrap-academic"
   },
   "keywords": ["material design", "bootstrap", "mdbootstrap", "starter", "webpack", "portfolio", "academic"],
-  "author": "MDBootstrap",
+  "author": "Ming Feng Wan",
   "license": "MIT",
   "dependencies": {
     "@popperjs/core": "^2.11.6",
