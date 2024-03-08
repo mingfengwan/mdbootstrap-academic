@@ -10,3 +10,4 @@ initMDB({ Collapse, Tooltip, Ripple, Carousel });
 import '@fortawesome/fontawesome-pro/js/fontawesome.min.js';
 import '@fortawesome/fontawesome-pro/js/duotone.min.js';
 import '@fortawesome/fontawesome-pro/js/brands.min.js';
+import '@fortawesome/fontawesome-pro/js/solid.min.js';
