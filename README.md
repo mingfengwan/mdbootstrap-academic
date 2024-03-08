@@ -2,7 +2,8 @@
 
 ### Built with Bootstrap 5, Material Design 2.0 UI Kit, and Font Awesome 6 Pro
 
-**[>> Support MDB 5 with a STAR](https://github.com/mdbootstrap/mdb-ui-kit/)**
+### [>> My academic website built with this template](https://www.cs.toronto.edu/~ming/)
+##### [>> Give MDB 5 a star](https://github.com/mdbootstrap/mdb-ui-kit/)
 
 ___
 
@@ -10,7 +11,8 @@ ___
 ```
 npm install
 ```
-A free version of **MDB UI Kit** and a paid version of **Font Awesome** are already included as a dependencies. 
+A free version of **MDB UI Kit** and a paid version of **Font Awesome** are already included as a dependencies, in 
+[package.json](package.json). 
 Upgrade to paid or downgrade to free as you like.
 ### Dev Server
 ```
@@ -34,7 +36,7 @@ npm run build
 ### Files structure:
 
 ```
-my-project/
+mdbootstrap-academic/
 ├── dist/
 │   └── index.html
 ├── src/
