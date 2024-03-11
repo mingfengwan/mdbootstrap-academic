@@ -6,8 +6,6 @@
 
 ##### [>> Give MDB 5 a star](https://github.com/mdbootstrap/mdb-ui-kit/)
 
-___
-
 ## Usage
 
 If you don't need any customization, simply download [index.html](dist/index.html) and [main.js](dist/main.js) from
@@ -17,6 +15,8 @@ same folder. Webpack is only needed if you want further customization.
 ### Color Scheme
 Please follow the color scheme for [MDBootstrap](https://mdbootstrap.com/docs/standard/content-styles/colors/) when 
 changing or adding colors.
+
+---
 
 ## Webpack
 
