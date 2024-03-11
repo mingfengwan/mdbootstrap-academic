@@ -1,10 +1,7 @@
 # MDB 5 Academic Portfolio Template
 
-### Built with Bootstrap 5, Material Design 2.0 UI Kit, and Font Awesome 6 Pro
-
+### Built with [Bootstrap 5 + Material Design 2.0 UI Kit](https://github.com/mdbootstrap/mdb-ui-kit/) and Font Awesome 6 Pro
 ### [>> My academic website built with this template](https://www.cs.toronto.edu/~ming/)
-
-##### [>> Give MDB 5 a star](https://github.com/mdbootstrap/mdb-ui-kit/)
 
 ## Usage
 
