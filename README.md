@@ -14,6 +14,10 @@ If you don't need any customization, simply download [index.html](dist/index.htm
 the [distribution](/dist) folder and modify contents in [index.html](dist/index.html). Make sure to both files in the
 same folder. Webpack is only needed if you want further customization.
 
+### Color Scheme
+Please follow the color scheme for [MDBootstrap](https://mdbootstrap.com/docs/standard/content-styles/colors/) when 
+changing or adding colors.
+
 ## Webpack
 
 ### Installation
