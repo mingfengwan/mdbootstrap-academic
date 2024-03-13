@@ -16,6 +16,7 @@ changing or adding colors.
 ## Performance
 This template exhibits superior performance even after incorporating 
 [a large-sized PNG file](https://www.cs.toronto.edu/~ming/pics/drawing.png).[^1]
+
 ![alt text](performance.png)
 
 ---
