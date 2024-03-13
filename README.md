@@ -13,6 +13,11 @@ same folder. Webpack is only needed if you want further customization.
 Please follow the color scheme for [MDBootstrap](https://mdbootstrap.com/docs/standard/content-styles/colors/) when 
 changing or adding colors.
 
+## Performance
+This template exhibits superior performance even after incorporating 
+[a large-sized PNG file](https://www.cs.toronto.edu/~ming/pics/drawing.png).[^1]
+![alt text](performance.png)
+
 ---
 
 ## Webpack
@@ -84,3 +89,6 @@ To import MDB stylesheet please use the following syntax:
 ```
 @import '~mdb-ui-kit/css/mdb.min.css';
 ```
+
+[^1]: Would love to convert this image into next-gen image formats, but unfortunately, the source file is missing, 
+and the available online converter tools are not satisfactory.
