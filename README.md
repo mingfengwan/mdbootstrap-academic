@@ -17,7 +17,22 @@ changing or adding colors.
 This template exhibits superior performance even after incorporating 
 [a large-sized WebP file](https://www.cs.toronto.edu/~ming/pics/drawing.webp).
 
-![alt text](performance.png)
+![Google Lighthouse Screenshot](performance.png)
+
+## Features
+Brand-new designs for **Course Work**, **Publication**, and **Academic Service** sections.
+
+| ![Course Work Section Screenshot](course_work_screenshot.png) | 
+|:-------------------------------------------------------------:| 
+|                    **Course Work** Section                    |
+
+| ![Publication Section Screenshot](publication_screenshot.png) | 
+|:-------------------------------------------------------------:| 
+|                    **Publication** Section                    |
+
+| ![Service Section Screenshot](service_screenshot.png) | 
+|:-----------------------------------------------------:| 
+|                  **Service** Section                  |
 
 ---
 
