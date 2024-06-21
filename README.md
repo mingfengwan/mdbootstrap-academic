@@ -1,12 +1,14 @@
 # MDB 5 Academic Portfolio Template
 
-### Built with [Bootstrap 5 + Material Design 2.0 UI Kit](https://github.com/mdbootstrap/mdb-ui-kit/) and Font Awesome 6 Pro
-### [>> My academic website built with this template](https://www.cs.toronto.edu/~ming/)
+### Built with:
+- [Bootstrap 5 + Material Design 2.0 UI Kit](https://github.com/mdbootstrap/mdb-ui-kit/)
+- [Font Awesome 6 Pro](https://fontawesome.com/)
+### [>> My academic website created using this template](https://www.cs.toronto.edu/~ming/)
 
 ## Usage
 
 If you don't need any customization, simply download [index.html](dist/index.html) and [main.js](dist/main.js) from
-the [distribution](/dist) folder and modify contents in [index.html](dist/index.html). Make sure to both files in the
+the [distribution](/dist) folder and modify contents in [index.html](dist/index.html). Make sure to place both files in the
 same folder. Webpack is only needed if you want further customization.
 
 ### Color Scheme
