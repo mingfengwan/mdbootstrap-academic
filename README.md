@@ -29,7 +29,9 @@ This template exhibits superior performance even after incorporating
 [a large-sized WebP file](https://www.cs.toronto.edu/~ming/pics/drawing.webp).
 ![Google Lighthouse Screenshot](performance.png)
 
----
+<br>
+
+___
 
 ## Usage
 
@@ -87,7 +89,7 @@ mdbootstrap-academic/
 └── package.json
 ```
 
-<br><br>
+<br>
 
 ___
 
