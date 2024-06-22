@@ -33,7 +33,7 @@ This template exhibits superior performance even after incorporating
 |:-----------------------------------------------------------------------------:|
 | [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/) Screenshot |
 
-<br>
+<br><br>
 
 ___
 
