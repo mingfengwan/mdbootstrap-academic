@@ -24,7 +24,7 @@ Brand-new designs for **Course Work**, **Publication**, and **Academic Service**
 |:-----------------------------------------------------:| 
 |                  **Service** Section                  |
 
-<br>
+<br><br>
 
 This template exhibits superior performance even after incorporating
 [a large-sized WebP file](https://www.cs.toronto.edu/~ming/pics/drawing.webp).
@@ -33,7 +33,7 @@ This template exhibits superior performance even after incorporating
 |:-----------------------------------------------------------------------------:|
 | [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/) Screenshot |
 
-<br><br>
+<br>
 
 ___
 
