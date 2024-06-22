@@ -24,6 +24,8 @@ Brand-new designs for **Course Work**, **Publication**, and **Academic Service**
 |:-----------------------------------------------------:| 
 |                  **Service** Section                  |
 
+<br>
+
 This template exhibits superior performance even after incorporating
 [a large-sized WebP file](https://www.cs.toronto.edu/~ming/pics/drawing.webp).
 
@@ -35,13 +37,13 @@ This template exhibits superior performance even after incorporating
 
 ___
 
-# Usage
+## Usage
 
 If you don't need any customization, simply download [index.html](dist/index.html) and [main.js](dist/main.js) from
 the [distribution](/dist) folder and modify contents in [index.html](dist/index.html). Make sure to place both files in the
 same folder. Webpack is only needed if you want further customization.
 
-## Color Scheme
+### Color Scheme
 Please follow the color scheme for [MDBootstrap](https://mdbootstrap.com/docs/standard/content-styles/colors/) when 
 changing or adding colors.
 
