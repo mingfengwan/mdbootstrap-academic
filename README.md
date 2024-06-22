@@ -1,25 +1,13 @@
-# MDB 5 Academic Portfolio Template
+<div align="center">
 
-### Built with:
-- [Bootstrap 5 + Material Design 2.0 UI Kit](https://github.com/mdbootstrap/mdb-ui-kit/)
-- [Font Awesome 6 Pro](https://fontawesome.com/)
-### [>> My academic website created using this template](https://www.cs.toronto.edu/~ming/)
+<h1>MDB 5 Academic Portfolio Template</h1>
+<h3><a href="https://www.cs.toronto.edu/~ming/">Academic website created via this template</a></h3>
 
-## Usage
+Built with [Bootstrap 5 + Material Design 2.0 UI Kit](https://github.com/mdbootstrap/mdb-ui-kit/) and 
+[Font Awesome 6 Pro](https://fontawesome.com/)
 
-If you don't need any customization, simply download [index.html](dist/index.html) and [main.js](dist/main.js) from
-the [distribution](/dist) folder and modify contents in [index.html](dist/index.html). Make sure to place both files in the
-same folder. Webpack is only needed if you want further customization.
-
-### Color Scheme
-Please follow the color scheme for [MDBootstrap](https://mdbootstrap.com/docs/standard/content-styles/colors/) when 
-changing or adding colors.
-
-## Performance
-This template exhibits superior performance even after incorporating 
-[a large-sized WebP file](https://www.cs.toronto.edu/~ming/pics/drawing.webp).
-
-![Google Lighthouse Screenshot](performance.png)
+[![Home Page Screenshot](home_screenshot.png)](https://www.cs.toronto.edu/~ming/)
+</div>
 
 ## Features
 Brand-new designs for **Course Work**, **Publication**, and **Academic Service** sections.
@@ -36,7 +24,21 @@ Brand-new designs for **Course Work**, **Publication**, and **Academic Service**
 |:-----------------------------------------------------:| 
 |                  **Service** Section                  |
 
+## Performance
+This template exhibits superior performance even after incorporating
+[a large-sized WebP file](https://www.cs.toronto.edu/~ming/pics/drawing.webp).
+![Google Lighthouse Screenshot](performance.png)
 ---
+
+## Usage
+
+If you don't need any customization, simply download [index.html](dist/index.html) and [main.js](dist/main.js) from
+the [distribution](/dist) folder and modify contents in [index.html](dist/index.html). Make sure to place both files in the
+same folder. Webpack is only needed if you want further customization.
+
+### Color Scheme
+Please follow the color scheme for [MDBootstrap](https://mdbootstrap.com/docs/standard/content-styles/colors/) when 
+changing or adding colors.
 
 ## Webpack
 
