@@ -93,11 +93,7 @@ mdbootstrap-academic/
 └── package.json
 ```
 
-<br>
-
-___
-
-# MDB UI KIT - Importing of MDB files
+## MDB UI KIT - Importing of MDB files
 
 ### Importing JS modules
 
