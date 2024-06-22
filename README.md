@@ -28,6 +28,7 @@ Brand-new designs for **Course Work**, **Publication**, and **Academic Service**
 This template exhibits superior performance even after incorporating
 [a large-sized WebP file](https://www.cs.toronto.edu/~ming/pics/drawing.webp).
 ![Google Lighthouse Screenshot](performance.png)
+
 ---
 
 ## Usage
