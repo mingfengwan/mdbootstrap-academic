@@ -3,13 +3,15 @@
 <h1>MDB 5 Academic Portfolio Template</h1>
 <h3><a href="https://www.cs.toronto.edu/~ming/">Academic website created via this template</a></h3>
 
-Built with [Bootstrap 5 + Material Design 2.0 UI Kit](https://github.com/mdbootstrap/mdb-ui-kit/) ([endorsed by its 
-creators](https://www.facebook.com/share/p/zwKH5b8mkEDddha3/) 💗) and [Font Awesome 6 Pro](https://fontawesome.com/).
+Built with [Bootstrap 5 + Material Design 2.0 UI Kit](https://github.com/mdbootstrap/mdb-ui-kit/)
+(💗 by [its creators](https://www.facebook.com/share/p/zwKH5b8mkEDddha3/))
+and [Font Awesome 6 Pro](https://fontawesome.com/).
 
 [![Home Page Screenshot](home_screenshot.png)](https://www.cs.toronto.edu/~ming/)
 </div>
 
 ## Features
+
 Brand-new designs for **Course Work**, **Publication**, and **Academic Service** sections.
 
 | ![Course Work Section Screenshot](course_work_screenshot.png) | 
@@ -40,11 +42,12 @@ ___
 ## Usage
 
 If you don't need any customization, simply download [index.html](dist/index.html) and [main.js](dist/main.js) from
-the [distribution](/dist) folder and modify contents in [index.html](dist/index.html). Make sure to place both files in the
-same folder. Webpack is only needed if you want further customization.
+the [distribution](/dist) folder and modify contents in [index.html](dist/index.html). Make sure to place both files in
+the same folder. Webpack is only needed if you want further customization.
 
 ### Color Scheme
-Please follow the color scheme for [MDBootstrap](https://mdbootstrap.com/docs/standard/content-styles/colors/) when 
+
+Please follow the color scheme for [MDBootstrap](https://mdbootstrap.com/docs/standard/content-styles/colors/) when
 changing or adding colors.
 
 ## Webpack
