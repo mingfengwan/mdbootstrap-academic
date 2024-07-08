@@ -4,7 +4,7 @@
 <h3><a href="https://www.cs.toronto.edu/~ming/">Academic website created via this template</a></h3>
 
 Built with [Bootstrap 5 + Material Design 2.0 UI Kit](https://github.com/mdbootstrap/mdb-ui-kit/) ([endorsed by its 
-creators](https://www.facebook.com/share/p/zwKH5b8mkEDddha3/) 😊) and [Font Awesome 6 Pro](https://fontawesome.com/).
+creators](https://www.facebook.com/share/p/zwKH5b8mkEDddha3/) 💗) and [Font Awesome 6 Pro](https://fontawesome.com/).
 
 [![Home Page Screenshot](home_screenshot.png)](https://www.cs.toronto.edu/~ming/)
 </div>
