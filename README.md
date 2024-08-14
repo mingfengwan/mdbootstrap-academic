@@ -107,6 +107,9 @@ import * as mdb from 'mdb-ui-kit'; // lib
 import { Input } from 'mdb-ui-kit'; // module
 import { Input as CustomInput } from 'mdb-ui-kit'; // module with custom name
 ```
+In this project, I imported `Collapse, Tooltip, Ripple, Carousel`. You can 
+remove [Tooltip](https://mdbootstrap.com/docs/standard/components/tooltips/) and 
+[Carousel](https://mdbootstrap.com/docs/standard/components/carousel/) if you are not using these UI components.
 
 ### Importing CSS file
 
