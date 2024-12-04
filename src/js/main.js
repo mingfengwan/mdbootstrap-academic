@@ -4,8 +4,8 @@ import * as mdb from 'mdb-ui-kit'; // lib
 window.mdb = mdb;
 
 // Initialization for ES Users
-import { Collapse, Tooltip, Ripple, Carousel, initMDB } from "mdb-ui-kit";
-initMDB({ Collapse, Tooltip, Ripple, Carousel });
+import { Collapse, Tooltip, Ripple, initMDB } from "mdb-ui-kit";
+initMDB({ Collapse, Tooltip, Ripple });
 
 import { library, dom } from '@fortawesome/fontawesome-svg-core';
 import { faPersonDressSimple, faEnvelope, faSparkles, faCommentSmile, faGlasses, faChartMixedUpCircleDollar, faFilePowerpoint, faFileLines, faFileCode, faHashtag, faBookOpen, faPresentationScreen, faVideo, faBookOpenReader, faChalkboardUser, faLocationDot, faSnowflake } from '@fortawesome/pro-duotone-svg-icons';
