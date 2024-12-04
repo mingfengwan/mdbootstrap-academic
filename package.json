@@ -23,7 +23,10 @@
     "detect-autofill": "^1.1.4",
     "mdb-ui-kit": "^7.1.0",
     "perfect-scrollbar": "^1.5.5",
-    "@fortawesome/fontawesome-pro": "^6.5.1"
+    "@fortawesome/fontawesome-svg-core": "^6.7.1",
+    "@fortawesome/pro-duotone-svg-icons": "^6.7.1",
+    "@fortawesome/pro-solid-svg-icons": "^6.7.1",
+    "@fortawesome/free-brands-svg-icons": "^6.7.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.10",

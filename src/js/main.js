@@ -7,7 +7,10 @@ window.mdb = mdb;
 import { Collapse, Tooltip, Ripple, Carousel, initMDB } from "mdb-ui-kit";
 initMDB({ Collapse, Tooltip, Ripple, Carousel });
 
-import '@fortawesome/fontawesome-pro/js/fontawesome.min.js';
-import '@fortawesome/fontawesome-pro/js/duotone.min.js';
-import '@fortawesome/fontawesome-pro/js/brands.min.js';
-import '@fortawesome/fontawesome-pro/js/solid.min.js';
+import { library, dom } from '@fortawesome/fontawesome-svg-core';
+import { faPersonDressSimple, faEnvelope, faSparkles, faCommentSmile, faGlasses, faChartMixedUpCircleDollar, faFilePowerpoint, faFileLines, faFileCode, faHashtag, faBookOpen, faPresentationScreen, faVideo, faBookOpenReader, faChalkboardUser, faLocationDot, faSnowflake } from '@fortawesome/pro-duotone-svg-icons';
+import { faBars, faAngleDown } from '@fortawesome/pro-solid-svg-icons';
+import { faGithubAlt, faLinkedinIn, faYoutube } from '@fortawesome/free-brands-svg-icons';
+
+library.add(faPersonDressSimple, faBars, faEnvelope, faAngleDown, faSparkles, faCommentSmile, faGlasses, faChartMixedUpCircleDollar, faFilePowerpoint, faFileLines, faFileCode, faHashtag, faBookOpen, faPresentationScreen, faVideo, faBookOpenReader, faChalkboardUser, faLocationDot, faSnowflake, faGithubAlt, faLinkedinIn, faYoutube);
+dom.watch();
