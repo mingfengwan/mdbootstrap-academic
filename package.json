@@ -12,21 +12,29 @@
     "type": "git",
     "url": "https://github.com/mingfengwan/mdbootstrap-academic"
   },
-  "keywords": ["material design", "bootstrap", "mdbootstrap", "starter", "webpack", "portfolio", "academic"],
+  "keywords": [
+    "material design",
+    "bootstrap",
+    "mdbootstrap",
+    "starter",
+    "webpack",
+    "portfolio",
+    "academic"
+  ],
   "author": "Ming Feng Wan",
   "license": "MIT",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.1",
+    "@fortawesome/free-brands-svg-icons": "^6.7.1",
+    "@fortawesome/pro-duotone-svg-icons": "^6.7.1",
+    "@fortawesome/pro-solid-svg-icons": "^6.7.1",
     "@popperjs/core": "^2.11.6",
     "chart.js": "^3.9.1",
     "chartjs-plugin-datalabels": "^2.1.0",
     "deepmerge": "^4.2.2",
     "detect-autofill": "^1.1.4",
     "mdb-ui-kit": "^8.1.0",
-    "perfect-scrollbar": "^1.5.5",
-    "@fortawesome/fontawesome-svg-core": "^6.7.1",
-    "@fortawesome/pro-duotone-svg-icons": "^6.7.1",
-    "@fortawesome/pro-solid-svg-icons": "^6.7.1",
-    "@fortawesome/free-brands-svg-icons": "^6.7.1"
+    "perfect-scrollbar": "^1.5.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.10",
@@ -45,7 +53,7 @@
     "sass": "^1.54.9",
     "sass-loader": "^13.0.2",
     "style-loader": "^3.3.1",
-    "webpack": "^5.74.0",
+    "webpack": "^5.97.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.10.1"
   }
