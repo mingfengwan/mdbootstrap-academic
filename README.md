@@ -28,7 +28,9 @@ Brand-new designs for **Course Work**, **Publication**, and **Academic Service**
 
 <br>
 
-This template exhibits superior performance even after incorporating
+### Optimized performance
+
+This template underwent thorough tree shaking and achieved an impressive speed score, even with the inclusion of
 [a large-sized WebP file](https://www.cs.toronto.edu/~ming/pics/drawing.webp).
 
 |               ![Google Lighthouse Screenshot](performance.png)                |
@@ -97,23 +99,27 @@ mdbootstrap-academic/
 ```
 
 ## MDB UI KIT
-
+In this project, I imported `Collapse, Tooltip, Ripple, Carousel`. You can
+remove [Tooltip](https://mdbootstrap.com/docs/standard/components/tooltips/) and
+[Carousel](https://mdbootstrap.com/docs/standard/components/carousel/) if you are not using these UI components.
 ### Importing JS modules
 
-You can import the entire library or just individual modules:
+You can import the entire library (not recommended):
 
 ```
 import * as mdb from 'mdb-ui-kit'; // lib
+```
+or just individual modules:
+```
 import { Input } from 'mdb-ui-kit'; // module
 import { Input as CustomInput } from 'mdb-ui-kit'; // module with custom name
 ```
-In this project, I imported `Collapse, Tooltip, Ripple, Carousel`. You can 
-remove [Tooltip](https://mdbootstrap.com/docs/standard/components/tooltips/) and 
-[Carousel](https://mdbootstrap.com/docs/standard/components/carousel/) if you are not using these UI components.
 
 ### Importing CSS file
+You can modify my imports in [styles.scss](src/scss/styles.scss), as recommended by 
+[MDB's guide](https://mdbootstrap.com/docs/standard/getting-started/optimization/).
 
-To import MDB stylesheet please use the following syntax:
+Alternatively, you can import the entire MDB stylesheet:
 
 ```
 @import '~mdb-ui-kit/css/mdb.min.css';
