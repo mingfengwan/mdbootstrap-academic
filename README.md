@@ -116,7 +116,7 @@ import { Input as CustomInput } from 'mdb-ui-kit'; // module with custom name
 ```
 
 ### Importing CSS file
-You can modify my imports in [styles.scss](src/scss/styles.scss), as recommended by 
+You can modify my imports in [main.scss](src/scss/main.scss), as recommended by 
 [MDB's guide](https://mdbootstrap.com/docs/standard/getting-started/optimization/).
 
 Alternatively, you can import the entire MDB stylesheet:
