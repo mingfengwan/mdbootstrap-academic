@@ -105,3 +105,49 @@
 //@import '~mdb-ui-kit/src/scss/free/range';
 //@import '~mdb-ui-kit/src/scss/free/accordion';
 @import '~mdb-ui-kit/src/scss/free/carousel';
+
+body {
+  background: #FBE9E7;
+  overflow: hidden;
+}
+/* Heart Elements */
+.heart {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #F8BBD0;
+  transform: rotate(45deg);
+  animation: float 10s infinite linear;
+}
+
+.heart::before,
+.heart::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #F8BBD0;
+  border-radius: 50%;
+}
+
+.heart::before {
+  top: -20px;
+  left: 0;
+}
+
+.heart::after {
+  left: -20px;
+  top: 0;
+}
+
+/* Floating Animation */
+@keyframes float {
+  0% {
+    transform: translateY(100vh) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-10vh) rotate(45deg);
+    opacity: 0;
+  }
+}
