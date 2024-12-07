@@ -117,7 +117,7 @@ body {
   height: 40px;
   background: #F8BBD0;
   transform: rotate(45deg);
-  animation: float 10s infinite linear;
+  animation: spin 10s infinite linear;
 }
 
 .heart::before,
@@ -140,14 +140,25 @@ body {
   top: 0;
 }
 
-/* Floating Animation */
-@keyframes float {
+@keyframes spin {
   0% {
-    transform: translateY(100vh) rotate(45deg);
-    opacity: 1;
+    transform: rotate(0deg); /* Start spinning */
   }
   100% {
-    transform: translateY(-10vh) rotate(45deg);
-    opacity: 0;
+    transform: rotate(360deg); /* Complete one full spin */
   }
+}
+
+.fa-dice-five, .fa-dice-four, .fa-dice-three, .fa-dice-two, .fa-dice-one {
+  --fa-secondary-color: white;
+  --fa-secondary-opacity: 0.9;
+  --fa-animation-duration: 10s;
+}
+
+.fa-dice-five, .fa-dice-four, .fa-dice-three, .fa-dice-two {
+  --fa-primary-color: black;
+}
+
+.fa-dice-one {
+  --fa-primary-color: #B71C1C;
 }
