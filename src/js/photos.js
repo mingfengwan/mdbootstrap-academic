@@ -1,4 +1,4 @@
-import '../scss/styles.scss';
+import '../scss/photos.scss';
 
 import { faChevronLeft, faChevronRight } from '@fortawesome/pro-solid-svg-icons';
 import { library, dom } from '@fortawesome/fontawesome-svg-core';

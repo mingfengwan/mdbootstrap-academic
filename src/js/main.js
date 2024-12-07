@@ -1,4 +1,4 @@
-import '../scss/styles.scss';
+import '../scss/main.scss';
 
 // Initialization for ES Users
 import { Collapse, Tooltip, Ripple, initMDB } from "mdb-ui-kit";
