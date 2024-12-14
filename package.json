@@ -29,6 +29,7 @@
     "@fortawesome/pro-duotone-svg-icons": "^6.7.1",
     "@fortawesome/pro-solid-svg-icons": "^6.7.1",
     "@fortawesome/duotone-light-svg-icons": "^6.7.1",
+    "@fortawesome/duotone-regular-svg-icons": "^6.7.1",
     "@popperjs/core": "^2.11.6",
     "chart.js": "^3.9.1",
     "chartjs-plugin-datalabels": "^2.1.0",
