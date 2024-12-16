@@ -7,22 +7,22 @@ Built with [Bootstrap 5 + Material Design 2.0 UI Kit](https://github.com/mdboots
 (💗 by [its creators](https://www.facebook.com/share/p/zwKH5b8mkEDddha3/))
 and [Font Awesome 6 Pro](https://fontawesome.com/).
 
-[![Home Page Screenshot](home_screenshot.png)](https://www.cs.toronto.edu/~ming/)
+[![Home Page Screenshot](screenshots/home_screenshot.png)](https://www.cs.toronto.edu/~ming/)
 </div>
 
 ## Features
 
 Brand-new designs for **Course Work**, **Publication**, and **Academic Service** sections.
 
-| ![Course Work Section Screenshot](course_work_screenshot.png) | 
+| ![Course Work Section Screenshot](screenshots/course_work_screenshot.png) | 
 |:-------------------------------------------------------------:| 
 |                    **Course Work** Section                    |
 
-| ![Publication Section Screenshot](publication_screenshot.png) | 
+| ![Publication Section Screenshot](screenshots/publication_screenshot.png) | 
 |:-------------------------------------------------------------:| 
 |                    **Publication** Section                    |
 
-| ![Service Section Screenshot](service_screenshot.png) | 
+| ![Service Section Screenshot](screenshots/service_screenshot.png) | 
 |:-----------------------------------------------------:| 
 |                  **Service** Section                  |
 
@@ -33,7 +33,7 @@ Brand-new designs for **Course Work**, **Publication**, and **Academic Service**
 This template underwent thorough tree shaking and achieved an impressive speed score, even with the inclusion of
 [a large-sized WebP file](https://www.cs.toronto.edu/~ming/pics/drawing.webp).
 
-|               ![Google Lighthouse Screenshot](performance.png)                |
+|               ![Google Lighthouse Screenshot](screenshots/performance.png)                |
 |:-----------------------------------------------------------------------------:|
 | [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/) Screenshot |
 
