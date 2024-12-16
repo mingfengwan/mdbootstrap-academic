@@ -16,12 +16,11 @@
 <body>
 
 <header>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-scroll" data-mdb-navbar-init>
+    <nav id="#navbarScroll" class="navbar navbar-expand-lg fixed-top navbar-scroll" data-mdb-navbar-init>
         <div class="container">
-            <span class="navbar-brand">
+            <a class="navbar-brand" href="#intro">
                 <i class="fa-duotone fa-regular fa-person-dress-simple fa-xl" style="color: #FF80AB;"></i>
-            </span>
+            </a>
             <button class="navbar-toggler" type="button" data-mdb-collapse-init
                     data-mdb-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +32,7 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#course-work">Course Work</a>
+                        <a class="nav-link" href="#coursework">Coursework</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#publication">Publication</a>
@@ -45,18 +44,18 @@
                 <ul class="navbar-nav d-flex flex-row">
                     <li class="nav-item me-3 me-lg-0">
                         <a class="nav-link text-uppercase" href="mailto:ming@cs.toronto.edu">
-                            Email <i class="fa-lg fa-sharp-duotone fa-regular fa-envelope ms-1"
-                                     style="--fa-secondary-opacity: 0.1"></i>
+                            <i class="fa-lg fa-sharp-duotone fa-regular fa-envelope"
+                               style="--fa-secondary-opacity: 0.1"></i>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+</header>
 
-    <!--Section: Design Block-->
+<main data-mdb-scrollspy-init data-mdb-target="#navbarScroll">
     <section>
-        <!-- Intro -->
         <div id="intro" class="text-center bg-image vh-100"
              style="background-image: url('https://www.cs.toronto.edu/~ming/pics/drawing.webp');">
             <div class="mask" style="background-color: rgba(252, 228, 236, 0.9);">
@@ -74,15 +73,10 @@
                 </div>
             </div>
         </div>
-        <!-- Intro -->
     </section>
-    <!--Section: Design Block-->
-</header>
 
-<main>
-    <div class="container my-5">
-        <!--Section: Design Block-->
-        <section id="about" class="text-center">
+    <section id="about" class="text-center">
+        <div class="container my-5">
             <h2 class="mb-5">About</h2>
 
             <p class="mb-5 mx-auto w-responsive">
@@ -130,12 +124,9 @@
                 </div>
 
             </div>
-        </section>
-    </div>
+        </div>
 
-    <!--Section: Design Block-->
-    <section>
-        <div class="bg-image bg-fixed text-center"
+        <div class="bg-image bg-fixed"
              style="background-image: url('https://www.cs.toronto.edu/~ming/pics/drawing.webp'); height: 400px;">
             <div class="mask" style="background-color: rgba(63, 81, 181, 0.3);">
                 <div class="d-flex justify-content-center align-items-center h-100 text-white">
@@ -150,13 +141,10 @@
             </div>
         </div>
     </section>
-    <!--Section: Design Block-->
 
     <div class="container my-5">
-
-        <!--Section: Design Block-->
-        <section id="course-work">
-            <h3 class="mb-5 text-center">Course Work</h3>
+        <section id="coursework">
+            <h3 class="mb-5 text-center">Coursework</h3>
             <h6 class="bg-body-tertiary p-2 border-top border-bottom">Graduate Computer Science</h6>
             <ul class="list-group list-group-light">
                 <li class="list-group-item list-group-item-action d-flex justify-content-between p-3"
@@ -222,11 +210,9 @@
                 </li>
             </ul>
         </section>
-        <!--Section: Design Block-->
 
         <hr class="my-5"/>
 
-        <!--Section: Design Block-->
         <section id="publication">
             <h6 class="text-danger text-center">Section Under Construction</h6>
             <h3 class="mb-5 text-center">Publication</h3>
@@ -367,7 +353,5 @@
 <!-- End your project here-->
 
 <script src="./main.js"></script>
-<!-- Custom scripts -->
-<script type="module"></script>
 </body>
 </html>

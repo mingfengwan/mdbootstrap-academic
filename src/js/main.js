@@ -1,8 +1,8 @@
 import '../scss/main.scss';
 
 // Initialization for ES Users
-import { Collapse, Tooltip, Ripple, initMDB } from "mdb-ui-kit";
-initMDB({ Collapse, Tooltip, Ripple });
+import { Collapse, Tooltip, Ripple, ScrollSpy, initMDB } from "mdb-ui-kit";
+initMDB({ Collapse, Tooltip, Ripple, ScrollSpy });
 
 import { library, dom } from '@fortawesome/fontawesome-svg-core';
 import { faPersonDressSimple } from '@fortawesome/duotone-regular-svg-icons/faPersonDressSimple';
