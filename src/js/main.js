@@ -14,3 +14,13 @@ import { faGithubAlt, faLinkedinIn, faYoutube } from '@fortawesome/free-brands-s
 
 library.add(faPersonDressSimple, faImage, faBars, faEnvelope, faAngleDown, faSparkles, faCommentSmile, faGlasses, faChartMixedUpCircleDollar, faFilePowerpoint, faFileLines, faFileCode, faHashtag, faBookOpen, faPresentationScreen, faVideo, faBookOpenReader, faChalkboardUser, faLocationDot, faSnowflake, faGithubAlt, faLinkedinIn, faYoutube);
 dom.watch();
+
+window.addEventListener("scroll", function () {
+    const navbar = document.getElementById("navbarScroll");
+    if (window.scrollY > 50) { // Detect scroll past 50px
+        navbar.classList.add("navbar-scrolled");
+    } else {
+        navbar.classList.remove("navbar-scrolled");
+    }
+});
+

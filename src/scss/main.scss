@@ -106,29 +106,20 @@
 //@import '~mdb-ui-kit/src/scss/free/accordion';
 //@import '~mdb-ui-kit/src/scss/free/carousel';
 
+.navbar-scrolled {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 @media (max-width: 991px) {
-  .navbar-scroll {
+  .navbar-scrolled {
     background-color: #EEEEEE;
   }
 }
 
-.navbar-scroll .navbar-brand {
-  color: #fff;
-}
-
-.navbar-scrolled {
-  background-color: #EEEEEE;
-}
-
-.navbar-scrolled .navbar-brand,
-.navbar-scrolled .nav-link,
-.navbar-scrolled .fa-bars {
-  color: #fff;
-}
-
-.border-right {
-  border-right-width: 5px !important;
-  border-right-color: #fff !important;
+.navbar {
+  transition: background-color 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
 
 @media (min-width: 992px) {
