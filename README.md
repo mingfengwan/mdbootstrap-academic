@@ -12,12 +12,12 @@ and [Font Awesome 6 Pro](https://fontawesome.com/).
 
 ## Features
 
-Brand-new designs for **Course Work**, **Publication**, and **Academic Service** sections. Also features a 
+Brand-new designs for **Coursework**, **Publication**, and **Academic Service** sections. Also features a 
 [photo slider](https://www.cs.toronto.edu/~ming/photos.html).
 
 | ![Course Work Section Screenshot](screenshots/course_work_screenshot.png) | 
-|:-------------------------------------------------------------:| 
-|                    **Course Work** Section                    |
+|:-------------------------------------------------------------------------:| 
+|                          **Coursework** Section                           |
 
 | ![Publication Section Screenshot](screenshots/publication_screenshot.png) | 
 |:-------------------------------------------------------------:| 
@@ -47,7 +47,7 @@ ___
 If no customization is required, just download [index.html](dist/index.html) and [main.js](dist/main.js) from the 
 [distribution](/dist) folder, then modify the content in [index.html](dist/index.html). Ensure both files are placed in
 the same folder. Webpack is only necessary for additional customization. For the photo slider, download
-[photo.html](/dist/photos.html) and [photo.js](/dist/photos.js).
+[photos.html](/dist/photos.html) and [photos.js](/dist/photos.js).
 
 ### Color Scheme
 
