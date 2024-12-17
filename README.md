@@ -1,9 +1,9 @@
 <div align="center">
 
 <h1>MDB 5 Academic Portfolio Template</h1>
-<h3><a href="https://www.cs.toronto.edu/~ming/">Academic website created via this template</a></h3>
+<h3><a target="_blank" href="https://www.cs.toronto.edu/~ming/">Academic website demo</a></h3>
 
-Built with [Bootstrap 5 + Material Design 2.0 UI Kit](https://github.com/mdbootstrap/mdb-ui-kit/)
+Built with [Material Design for Bootstrap 5](https://github.com/mdbootstrap/mdb-ui-kit/)
 (💗 by [its creators](https://www.facebook.com/share/p/zwKH5b8mkEDddha3/))
 and [Font Awesome 6 Pro](https://fontawesome.com/).
 
@@ -12,8 +12,8 @@ and [Font Awesome 6 Pro](https://fontawesome.com/).
 
 ## Features
 
-Brand-new designs for **Coursework**, **Publication**, and **Academic Service** sections. Also features a 
-[photo slider](https://www.cs.toronto.edu/~ming/photos.html).
+Brand-new designs for **Coursework**, **Publication**, and **Academic Service** sections, plus a 
+[photo slider](https://www.cs.toronto.edu/~ming/photos.html) page.
 
 | ![Course Work Section Screenshot](screenshots/course_work_screenshot.png) | 
 |:-------------------------------------------------------------------------:| 
@@ -44,7 +44,7 @@ ___
 
 ## Usage
 
-If no customization is required, just download [index.html](dist/index.html) and [main.js](dist/main.js) from the 
+If no customization is required, *just* download [index.html](dist/index.html) and [main.js](dist/main.js) from the 
 [distribution](/dist) folder, then modify the content in [index.html](dist/index.html). Ensure both files are placed in
 the same folder. Webpack is only necessary for additional customization. For the photo slider, download
 [photos.html](/dist/photos.html) and [photos.js](/dist/photos.js).
