@@ -7,12 +7,15 @@ initMDB({ Collapse, Tooltip, Ripple, ScrollSpy });
 import { library, dom } from '@fortawesome/fontawesome-svg-core';
 import { faPersonDressSimple } from '@fortawesome/duotone-regular-svg-icons/faPersonDressSimple';
 import { faEnvelope } from '@fortawesome/sharp-duotone-regular-svg-icons/faEnvelope';
-import { faSparkles, faCommentSmile, faGlasses, faChartMixedUpCircleDollar, faFilePowerpoint, faFileLines, faFileCode, faHashtag, faBookOpen, faPresentationScreen, faVideo, faBookOpenReader, faChalkboardUser, faLocationDot, faSnowflake } from '@fortawesome/pro-duotone-svg-icons';
+import { faCommentSmile } from '@fortawesome/duotone-regular-svg-icons/faCommentSmile';
+import { faBrainCircuit } from '@fortawesome/duotone-regular-svg-icons/faBrainCircuit';
+import { faChartMixedUpCircleDollar } from '@fortawesome/duotone-regular-svg-icons/faChartMixedUpCircleDollar';
+import { faSparkles, faFilePowerpoint, faFileLines, faFileCode, faHashtag, faBookOpen, faPresentationScreen, faVideo, faBookOpenReader, faChalkboardUser, faLocationDot, faSnowflake } from '@fortawesome/pro-duotone-svg-icons';
 import { faBars, faAngleDown } from '@fortawesome/pro-solid-svg-icons';
 import { faImage } from '@fortawesome/duotone-light-svg-icons/faImage';
 import { faGithubAlt, faLinkedinIn, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faPersonDressSimple, faImage, faBars, faEnvelope, faAngleDown, faSparkles, faCommentSmile, faGlasses, faChartMixedUpCircleDollar, faFilePowerpoint, faFileLines, faFileCode, faHashtag, faBookOpen, faPresentationScreen, faVideo, faBookOpenReader, faChalkboardUser, faLocationDot, faSnowflake, faGithubAlt, faLinkedinIn, faYoutube);
+library.add(faPersonDressSimple, faImage, faBars, faEnvelope, faAngleDown, faSparkles, faCommentSmile, faBrainCircuit, faChartMixedUpCircleDollar, faFilePowerpoint, faFileLines, faFileCode, faHashtag, faBookOpen, faPresentationScreen, faVideo, faBookOpenReader, faChalkboardUser, faLocationDot, faSnowflake, faGithubAlt, faLinkedinIn, faYoutube);
 dom.watch();
 
 window.addEventListener("scroll", function () {
