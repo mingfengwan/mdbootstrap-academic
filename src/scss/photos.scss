@@ -107,47 +107,13 @@
 @import '~mdb-ui-kit/src/scss/free/carousel';
 
 body {
-  background: #FBE9E7;
   overflow: hidden;
 }
 
-/* Heart Elements */
-.heart {
+.fa-sun {
   position: absolute;
-  background: #F8BBD0;
-  transform: rotate(45deg);
-  animation: spin 10s infinite linear;
-}
-
-.heart::before,
-.heart::after {
-  content: '';
-  position: absolute;
-  background: #F8BBD0;
-  border-radius: 50%;
-}
-
-.heart::before {
-  top: -50%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.heart::after {
-  top: 0;
-  left: -50%;
-  width: 100%;
-  height: 100%;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg); /* Start spinning */
-  }
-  100% {
-    transform: rotate(360deg); /* Complete one full spin */
-  }
+  color: #FF9800;
+  --fa-animation-iteration-count: 10;
 }
 
 .fa-dice-five, .fa-dice-four, .fa-dice-three, .fa-dice-two, .fa-dice-one {
