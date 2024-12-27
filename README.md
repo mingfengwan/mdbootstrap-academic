@@ -12,20 +12,30 @@ and [Font Awesome 6 Pro](https://fontawesome.com/).
 
 ## Features
 
-Brand-new designs for **Coursework**, **Publication**, and **Academic Service** sections, plus a 
-[photo slider](https://www.cs.toronto.edu/~ming/photos.html) page.
+Brand-new designs for **Coursework**, **Publication**, and **Academic Service** sections.
 
 | ![Course Work Section Screenshot](screenshots/course_work_screenshot.png) | 
 |:-------------------------------------------------------------------------:| 
 |                          **Coursework** Section                           |
 
 | ![Publication Section Screenshot](screenshots/publication_screenshot.png) | 
-|:-------------------------------------------------------------:| 
-|                    **Publication** Section                    |
+|:-------------------------------------------------------------------------:| 
+|                          **Publication** Section                          |
 
 | ![Service Section Screenshot](screenshots/service_screenshot.png) | 
-|:-----------------------------------------------------:| 
-|                  **Service** Section                  |
+|:-----------------------------------------------------------------:| 
+|                        **Service** Section                        |
+
+<br>
+
+### Photo gallery
+
+To optimize loading times, all large photos are displayed on a photo slider page with an animated background.
+[View live example](https://www.cs.toronto.edu/~ming/photos.html).
+
+| ![Photo Slider Screenshot](screenshots/photo_slider.png) | 
+|:--------------------------------------------------------:| 
+|           Screenshot of the Photo Slider Page            |
 
 <br>
 
@@ -34,7 +44,7 @@ Brand-new designs for **Coursework**, **Publication**, and **Academic Service** 
 This template underwent thorough tree shaking and achieved an impressive speed score, even with the inclusion of
 [a large-sized WebP file](https://www.cs.toronto.edu/~ming/pics/drawing.webp).
 
-|               ![Google Lighthouse Screenshot](screenshots/performance.png)                |
+|         ![Google Lighthouse Screenshot](screenshots/performance.png)          |
 |:-----------------------------------------------------------------------------:|
 | [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/) Screenshot |
 
@@ -44,7 +54,7 @@ ___
 
 ## Usage
 
-If no customization is required, *just* download [index.html](dist/index.html) and [main.js](dist/main.js) from the 
+If no customization is required, *just* download [index.html](dist/index.html) and [main.js](dist/main.js) from the
 [distribution](/dist) folder, then modify the content in [index.html](dist/index.html). Ensure both files are placed in
 the same folder. Webpack is only necessary for additional customization. For the photo slider, download
 [photos.html](/dist/photos.html) and [photos.js](/dist/photos.js).
@@ -101,9 +111,11 @@ mdbootstrap-academic/
 ```
 
 ## MDB UI KIT
+
 In this project, I imported `Collapse, Tooltip, Ripple, Carousel`. You can
 remove [Tooltip](https://mdbootstrap.com/docs/standard/components/tooltips/) and
 [Carousel](https://mdbootstrap.com/docs/standard/components/carousel/) if you are not using these UI components.
+
 ### Importing JS modules
 
 You can import the entire library (not recommended):
@@ -111,14 +123,17 @@ You can import the entire library (not recommended):
 ```
 import * as mdb from 'mdb-ui-kit'; // lib
 ```
+
 or just individual modules:
+
 ```
 import { Input } from 'mdb-ui-kit'; // module
 import { Input as CustomInput } from 'mdb-ui-kit'; // module with custom name
 ```
 
 ### Importing CSS file
-You can modify my imports in [main.scss](src/scss/main.scss), as recommended by 
+
+You can modify my imports in [main.scss](src/scss/main.scss), as recommended by
 [MDB's guide](https://mdbootstrap.com/docs/standard/getting-started/optimization/).
 
 Alternatively, you can import the entire MDB stylesheet:
