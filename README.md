@@ -30,8 +30,8 @@ Brand-new designs for **Coursework**, **Publication**, and **Academic Service** 
 
 ### Photo gallery
 
-To optimize loading times, all large photos are displayed on a photo slider page with an animated background.
-[View live example](https://www.cs.toronto.edu/~ming/photos.html).
+To enhance loading times, all large photos are shown on a photo slider page featuring an animated blooming flower 
+background. [See live example](https://www.cs.toronto.edu/~ming/photos.html).
 
 | ![Photo Slider Screenshot](screenshots/photo_slider.png) | 
 |:--------------------------------------------------------:| 

@@ -110,10 +110,40 @@ body {
   overflow: hidden;
 }
 
-.fa-sun {
+.fa-flower {
   position: absolute;
-  color: #FF9800;
-  --fa-animation-iteration-count: 10;
+  animation: beat-fade 4s ease-in-out forwards;
+  --fa-secondary-opacity: 0.9;
+}
+
+.flower-orange-yellow {
+  --fa-primary-color: #FF9800;
+  --fa-secondary-color: #FFECB3;
+}
+
+.flower-pink-red {
+  --fa-primary-color: #F44336;
+  --fa-secondary-color: #F8BBD0;
+}
+
+.flower-purple-blue {
+  --fa-primary-color: #9C27B0;
+  --fa-secondary-color: #B3E5FC;
+}
+
+@keyframes beat-fade {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
 }
 
 .fa-dice-five, .fa-dice-four, .fa-dice-three, .fa-dice-two, .fa-dice-one {
