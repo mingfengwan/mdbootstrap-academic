@@ -10,12 +10,14 @@ import { faEnvelope } from '@fortawesome/sharp-duotone-regular-svg-icons/faEnvel
 import { faCommentSmile } from '@fortawesome/duotone-regular-svg-icons/faCommentSmile';
 import { faBrainCircuit } from '@fortawesome/duotone-regular-svg-icons/faBrainCircuit';
 import { faChartMixedUpCircleDollar } from '@fortawesome/duotone-regular-svg-icons/faChartMixedUpCircleDollar';
-import { faSparkles, faFilePowerpoint, faFileLines, faFileCode, faHashtag, faRingDiamond, faBookOpen, faPresentationScreen, faVideo, faBookOpenReader, faChalkboardUser, faLocationDot, faSnowflake } from '@fortawesome/pro-duotone-svg-icons';
+import { faSparkles, faFilePowerpoint, faFileLines, faFileCode, faHashtag, faRingDiamond, faBookOpen, faPresentationScreen, faVideo, faLocationDot, faSnowflake } from '@fortawesome/pro-duotone-svg-icons';
+import { faUserMagnifyingGlass } from '@fortawesome/duotone-light-svg-icons/faUserMagnifyingGlass';
+import { faChalkboardUser } from '@fortawesome/duotone-light-svg-icons/faChalkboardUser';
 import { faBars, faAngleDown } from '@fortawesome/pro-solid-svg-icons';
 import { faImage } from '@fortawesome/duotone-light-svg-icons/faImage';
 import { faGithubAlt, faLinkedinIn, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faPersonDressSimple, faImage, faBars, faEnvelope, faAngleDown, faSparkles, faCommentSmile, faBrainCircuit, faChartMixedUpCircleDollar, faFilePowerpoint, faFileLines, faFileCode, faHashtag, faRingDiamond, faBookOpen, faPresentationScreen, faVideo, faBookOpenReader, faChalkboardUser, faLocationDot, faSnowflake, faGithubAlt, faLinkedinIn, faYoutube);
+library.add(faPersonDressSimple, faImage, faBars, faEnvelope, faAngleDown, faSparkles, faCommentSmile, faBrainCircuit, faChartMixedUpCircleDollar, faFilePowerpoint, faFileLines, faFileCode, faHashtag, faRingDiamond, faBookOpen, faPresentationScreen, faVideo, faUserMagnifyingGlass, faChalkboardUser, faLocationDot, faSnowflake, faGithubAlt, faLinkedinIn, faYoutube);
 dom.watch();
 
 window.addEventListener("scroll", function () {
