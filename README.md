@@ -54,7 +54,7 @@ ___
 
 ## Usage
 
-If no customization is required, *just* download [index.html](dist/index.html) and [main.js](dist/main.js) from the
+If no customization is required, *just* download [index.html](dist/index.html), [main.css](dist/main.css) and [main.js](dist/main.js) from the
 [distribution](/dist) folder, then modify the content in [index.html](dist/index.html). Ensure both files are placed in
 the same folder. Webpack is only necessary for additional customization. For the photo slider, download
 [photos.html](/dist/photos.html) and [photos.js](/dist/photos.js).
@@ -90,12 +90,9 @@ npm run build
 
 ### Features:
 
-* Bundling via [Webpack](https://github.com/webpack/webpack) 5.74.0
-* ES6+ Support via [babel-cli](https://github.com/babel/babel) v7.18.10
-* SASS Support via [sass-loader](https://github.com/webpack-contrib/sass-loader) v13.0.2
-* Linting via [eslint-webpack-plugin](https://github.com/webpack-contrib/eslint-webpack-plugin) v3.2.0
+* Bundling via [Webpack](https://github.com/webpack/webpack) 5.98.0
+* SASS Support via [sass-loader](https://github.com/webpack-contrib/sass-loader) v16.0.5
 * Unit Testing via [jest](https://github.com/facebook/jest) v29.0.1
-* Code Formatting via [prettier](https://github.com/prettier/prettier) v2.7.1
 
 ### Files structure:
 
