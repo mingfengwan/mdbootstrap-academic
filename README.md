@@ -57,7 +57,7 @@ ___
 If no customization is required, *just* download [index.html](dist/index.html), [main.css](dist/main.css) and [main.js](dist/main.js) from the
 [distribution](/dist) folder, then modify the content in [index.html](dist/index.html). Ensure both files are placed in
 the same folder. Webpack is only necessary for additional customization. For the photo slider, download
-[photos.html](/dist/photos.html) and [photos.js](/dist/photos.js).
+[photos.html](/dist/photos.html), [photos.css](/dist/photos.css), and [photos.js](/dist/photos.js).
 
 ### Color Scheme
 
