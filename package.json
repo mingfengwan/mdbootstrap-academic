@@ -5,7 +5,6 @@
     "start": "webpack serve --mode development",
     "build": "webpack build --mode production",
     "test": "jest",
-    "lint": "lint-staged && pretty-quick --staged",
     "deploy": "webpack build --mode production && cd dist && mdb publish"
   },
   "repository": {
