@@ -39,9 +39,9 @@ background. [See live example](https://www.cs.toronto.edu/~ming/photos.html).
 
 <br>
 
-### Optimized performance
+### 100/100 performance
 
-This template underwent thorough tree shaking and achieved an impressive speed score, even with the inclusion of
+This template underwent thorough tree shaking and achieved a perfect performance score, even with the inclusion of
 [a large-sized WebP file](https://www.cs.toronto.edu/~ming/pics/drawing.webp).
 
 |         ![Google Lighthouse Screenshot](screenshots/performance.jpeg)          |
