@@ -44,7 +44,7 @@ background. [See live example](https://www.cs.toronto.edu/~ming/photos.html).
 This template underwent thorough tree shaking and achieved an impressive speed score, even with the inclusion of
 [a large-sized WebP file](https://www.cs.toronto.edu/~ming/pics/drawing.webp).
 
-|         ![Google Lighthouse Screenshot](screenshots/performance.png)          |
+|         ![Google Lighthouse Screenshot](screenshots/performance.jpeg)          |
 |:-----------------------------------------------------------------------------:|
 | [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/) Screenshot |
 
